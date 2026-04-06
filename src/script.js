@@ -1,4 +1,4 @@
-const socket = io('http://192.168.5.182:8080/');
+const socket = io('https://locatert-1.onrender.com/');
 // let socketid = JSON.parse(sessionStorage.getItem('socketid') || 0)
 
 if (window.navigator.geolocation) {
